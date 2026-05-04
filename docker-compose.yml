@@ -27,3 +27,6 @@ services:
       - DATABASE_URL=postgres://postgres:postgres@db:5432/symmy_task
       - CELERY_BROKER_URL=redis://redis:6379/0
     depends_on: [db, redis]
+
+env_file:
+  - .env
