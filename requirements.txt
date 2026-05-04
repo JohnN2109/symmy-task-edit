@@ -7,4 +7,7 @@ pytest
 pytest-django
 responses
 environs
+black
+flake8
+isort
 
