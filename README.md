@@ -25,15 +25,15 @@ Async ERP → E-shop synchronization service built with Django, Celery, Redis an
 
 ## Architecture
 ---
-ERP JSON
-↓
-Celery Task
-↓
-Validation + Transformation
-↓
-Delta Sync
-↓
-Mocked E-shop API
+- ERP JSON
+ ↓
+- Celery Task
+ ↓
+- Validation + Transformation
+ ↓
+- Delta Sync
+ ↓
+- Mocked E-shop API
 
 ---
 
@@ -88,4 +88,4 @@ docker compose exec web python manage.py test
 ## Notes
 
 The E-shop API is mocked intentionally because the provided API endpoint does not exist.
-Synchronization requests are simulated via logging.
+Synchronization requests are simulated via logging.# symmy-task-edit
